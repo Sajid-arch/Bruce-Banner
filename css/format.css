@@ -1,0 +1,36 @@
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.align-center{
+    align-items: center;
+}
+.center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+.btn{
+    display: inline-block;
+    color: var(--font-1);
+    font-size: 0.9rem;
+    font-weight: var(--bold);
+    padding: 0.75rem 1.8rem;
+    border-radius: 4px;
+    transition: all ease 0.5s;
+    border: none;
+}
